@@ -61,9 +61,10 @@ If you find this repo helpful, don’t forget to **star ⭐ the repository** and
 
 * **Author:** Yash Upadhyay
 * **GitHub:** [@yash-upadhyay-2003](https://github.com/yash-upadhyay-2003)  
-* **LinkedIn:** [upadhyay-yashhh](www.linkedin.com/in/upadhyay-yashhh)  
+* **LinkedIn:** [upadhyay-yashhh](https://www.linkedin.com/in/yash-upadhyay-006878283/) 
 * **Mail:** [yashupadhyay8778@gmail.com](mailto:yashupadhyay8778@gmail.com)
 
 ---
 
 🔥 Let’s ace DSA problems with **Java**!
+

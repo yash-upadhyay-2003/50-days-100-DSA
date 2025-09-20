@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚀 50 Days DSA Challenge
 
 Welcome to my **50 Days of DSA Challenge** repository! 🎯

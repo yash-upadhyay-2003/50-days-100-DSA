@@ -48,7 +48,7 @@ This repo contains my daily solutions, notes, and progress as I work through Dat
 
 ## 🤝 Contributing
 
-This is a personal challenge, but if you’d like to suggest improvements or alternative Java solutions, feel free to open an issue or pull request. 🚀  
+This is a personal challenge, but if you’d like to suggest improvements or alternative Java solutions, feel free to open an issue or pull request. 🚀
 
 ---
 

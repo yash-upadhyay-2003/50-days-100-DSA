@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IntersectionArrays {
+public class ArrayUnion {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,18 +21,36 @@ public class IntersectionArrays {
         for (int i = 0; i < m; i++) {
             arr2[i] = sc.nextInt();
         }
+        sc.close();
 
-        // Find intersection
-        System.out.println("Intersection of two arrays:");
+        // Find union
+        int[] union = new int[n + m];
+        int k = 0;
+
+        // Add all elements of first array
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (arr1[i] == arr2[j]) {
-                    System.out.print(arr1[i] + " ");
-                    arr2[j] = Integer.MIN_VALUE; // Avoid duplicate counting
+            union[k++] = arr1[i];
+        }
+
+        // Add elements of second array if not already in union
+        for (int i = 0; i < m; i++) {
+            boolean found = false;
+            for (int j = 0; j < k; j++) {
+                if (arr2[i] == union[j]) {
+                    found = true;
                     break;
                 }
             }
+            if (!found) {
+                union[k++] = arr2[i];
+            }
         }
-        sc.close();
+
+        // Print union
+        System.out.println("Union of two arrays:");
+        for (int i = 0; i < k; i++) {
+            System.out.print(union[i] + " ");
+        }
+        
     }
 }

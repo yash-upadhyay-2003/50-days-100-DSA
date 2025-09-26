@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.*;
 
 public class ReverseWords {
     public static String reverseWords(String sentence) {
@@ -26,7 +25,7 @@ public class ReverseWords {
         String sentence = sc.nextLine();
 
         String reversed = reverseWords(sentence);
-        System.out.println("Reversed words: " + reversed);
+        System.out.println("Reversed Words: " + reversed);
          sc.close();
     }
    

@@ -27,5 +27,7 @@ public class ReverseWords {
 
         String reversed = reverseWords(sentence);
         System.out.println("Reversed words: " + reversed);
+         sc.close();
     }
+   
 }

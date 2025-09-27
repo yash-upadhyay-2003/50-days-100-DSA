@@ -28,5 +28,6 @@ int[] count = new int[256];
     else{
         System.out.println("Strings are not Anagrams");
     }
+    sc.close();
     }
 }

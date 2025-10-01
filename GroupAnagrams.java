@@ -5,7 +5,7 @@ public class GroupAnagrams {
         Solution sol = new Solution();
 
         // Example input
-        String[] strs = {"eat","tea","tan","ate","nat","bat"};
+        String[] strs = {"eat","tea","tan","ate","nat","bat","tab"};
 
         // Call the method
         List<List<String>> result = sol.groupAnagrams(strs);

@@ -17,13 +17,13 @@ public class BuyAndSellStock {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
         int[] prices = new int[n];
         for (int i = 0; i < n; i++) {
-            prices[i] = sc.nextInt();
+            prices[i] = s.nextInt();
         }
         System.out.println(maxProfit(prices));
-        sc.close();
+        s.close();
     }
 }

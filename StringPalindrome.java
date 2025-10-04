@@ -15,10 +15,10 @@ public static void main(String[] args){
     System.out.println("Enter the string: ");
     String str = sc.nextLine();
     if(isPalindrome(str)){
-         System.out.println("palindrome");
+        System.out.println("palindrome");
     }
     else{
-         System.out.println("Not palindrome");
+        System.out.println("Not palindrome");
     }
 sc.close();
 }

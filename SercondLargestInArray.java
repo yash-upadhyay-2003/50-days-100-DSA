@@ -11,7 +11,7 @@ public class SercondLargestInArray {
             else if(arr[i] > secondLargest && arr[i] != largest){
                 secondLargest=arr[i];
             }
-        }
+        }//result
         System.out.println("Second Largest -> " + secondLargest);
     }
 }

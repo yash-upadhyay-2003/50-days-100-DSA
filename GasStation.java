@@ -19,6 +19,6 @@ public class GasStation {
         int[] gas={1,2,3,4,5};
         int[] cost ={3,4,5,1,2};
         int idx = Check(gas,cost);
-        System.out.println("the starting point is: " + idx);
+        System.out.println("the starting point is :" + idx);
     }
 }

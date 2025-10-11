@@ -1,5 +1,5 @@
-public class jumpGameII{
-    public int jump(int[] nums) {
+public class jumpGame2{
+    public static int jump(int[] nums) {
         int n = nums.length;
         if (n <= 1) return 0;
 
@@ -19,8 +19,8 @@ public class jumpGameII{
     }
 
     public static void main(String[] args) {
-        Solution s = new Solution();
+        
         int[] nums = {2, 3, 1, 1, 4};
-        System.out.println(s.jump(nums));
+        System.out.println(jump(nums));
     }
 }

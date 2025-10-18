@@ -12,7 +12,7 @@ public class GroupAnagramss {
         // Print result
         System.out.println("Grouped Anagrams: " + result);
     }
-}
+
 
     public static List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> map = new HashMap<>();
@@ -28,3 +28,4 @@ public class GroupAnagramss {
         return new ArrayList<>(map.values());
     }
 
+}
